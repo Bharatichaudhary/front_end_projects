@@ -1,0 +1,48 @@
+.web{
+    padding: 0;
+}
+.leftarrow,.rightarrow{
+    margin-left:0rem ;
+    width:3%;
+    display: inline-block;
+}
+.flutter{
+    padding: 0;
+}
+.childd {
+    width: 30%;
+    display: none;
+
+}
+.childd .card{
+    margin: auto;
+    width: 12rem;
+
+}
+.page{
+    float: left;
+    }
+    .sr-only{
+        display: none;
+    }
+    .child{
+        width: 20rem;
+        /*height: 25rem;*/
+        margin: auto;
+    
+        padding: 1rem 0;
+    
+    
+    
+    }
+    .leftarrow, .rightarrow {
+        margin-left: 0rem;
+        width: 10%;
+        display: inline-block;
+    }
+    .childd .card{
+        border: none !important;
+        box-shadow: rgba(85, 82, 82, 0.8) 0 0 1.5rem !important;
+        border-collapse: collapse !important ;
+        color: rgb(175, 180, 180);
+    }

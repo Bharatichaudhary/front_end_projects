@@ -1,0 +1,178 @@
+.main{
+    background-color: rgb(28, 31, 46);
+}
+
+.logo img{
+    display: block;
+    margin: auto;
+    height: 20rem;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: rgba(85, 82, 82, 0.8) 0 0 2rem;
+    border-collapse: collapse;}
+.image img{
+    display: block;
+    margin: auto;
+    height: 25rem;
+    width: 25rem;
+    box-shadow: 2px rebeccapurple;
+    margin-top: -12.5rem;
+    border-radius: 12.5rem;
+    transform: rotate(-15deg);
+    box-shadow: rgba(85, 82, 82, 0.8) 0 0 2rem;
+    border-collapse: collapse;
+}
+.home{
+    text-align: center;
+    margin-top: 2rem;
+    color: rgb(119, 113, 113);
+
+}
+.home h2{
+    font-family:cursive;
+    font-size: 3rem;
+    color: black;
+}
+.home p{
+    font-size: 1.5rem;
+    font-family:monospace;
+}
+.home i{
+    margin-top: 0;
+    font-size: 2rem;
+    color: black;
+}
+.web{
+    padding: 2rem;
+}
+.page{
+float: right;
+}
+.web h4{
+    color: aliceblue;
+    margin: 2rem 0;
+    text-align: center;
+
+}
+
+.row{
+    margin: 2rem 0;
+    padding: 0 5rem;
+    overflow: wrap;
+
+}
+.child .btn{
+    color: rgb(176, 176, 202);
+    background-color: rgb(102, 80, 124);
+}
+.childd .btn{
+    color: rgb(176, 176, 202);
+    background-color: rgb(102, 80, 124);
+    border: none !important;
+
+}
+
+.child .btn:hover{
+    color: rgb(25, 25, 129);
+    background-color: rgb(52, 49, 56);
+}
+.child .card {
+    border: none !important;
+    box-shadow: rgba(85, 82, 82, 0.8) 0 0 1.5rem !important;
+    border-collapse: collapse !important ;
+    color: rgb(175, 180, 180);
+   /* height: 13rem;*/
+
+
+}
+.childd .card{
+    border: none !important;
+    box-shadow: rgba(85, 82, 82, 0.8) 0 0 1.5rem !important;
+    border-collapse: collapse !important ;
+    color: rgb(175, 180, 180);
+}
+.card-body{
+    background-color: rgb(44, 42, 46);
+}
+.child{
+    width: 40rem;
+   /* height: 15rem;*/
+    margin: auto;
+
+    padding: 1rem 0;
+
+
+
+}
+/*.child .btn{
+    bottom: 0px;
+    position: absolute;
+}*/
+
+.parent{
+   /* display: flex;*/
+    justify-content: center;
+    align-items: center; 
+    /*height:20rem;*/
+}
+.flutter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.childd{
+    width: 30%;
+    display: none;
+
+}
+.childd .card{
+    margin: auto;
+    width: 18rem;
+    color: rgb(175, 180, 180);
+
+
+}
+.leftarrow,.rightarrow{
+    margin-left:1rem ;
+    width:3%;
+    display: inline-block;
+}
+.flutter button{
+    font-size: 2rem;
+    border: none;
+    background-color: transparent;
+    color: rgb(119, 113, 113);
+
+}
+.para{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(119, 113, 113);
+
+}
+.para i,a{
+    margin: 0.5rem;
+}
+.para a{
+    color: rgb(88, 85, 85);
+    font-weight: 500;
+}
+.para a:hover{
+    color: rgb(131, 127, 127);
+
+}
+.home a{
+    color: rgb(119, 113, 113);
+
+}
+.home a:hover{
+    color: rgb(131, 127, 127);
+}
+.title{
+    color: rgb(175, 180, 180);
+    font-size: 1.5rem;
+    text-align: center;
+
+}

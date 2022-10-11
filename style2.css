@@ -1,0 +1,92 @@
+.childd{
+    width: 90%;
+    display: none;
+
+}
+.childd .card{
+    margin: auto;
+    width: 18rem;
+
+}
+
+.logo img{
+    display: block;
+    margin: auto;
+    height: 10rem;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: rgba(85, 82, 82, 0.8) 0 0 2rem;
+    border-collapse: collapse;}
+.image img{
+    display: block;
+    margin: auto;
+    height: 15rem;
+    width: 15rem;
+    box-shadow: 2px rebeccapurple;
+    margin-top: -8.5rem;
+    border-radius: 7.5rem;
+    transform: rotate(-15deg);
+    box-shadow: rgba(85, 82, 82, 0.8) 0 0 2rem;
+    border-collapse: collapse;
+}
+.child{
+    width: 20rem;
+    /*height: rem;*/
+    margin: auto;
+
+    padding: 0rem 0;
+
+
+
+}
+.flutter{
+    margin: 2rem 0;
+}
+/*.child .btn{
+    bottom: 0px;
+    display: block;
+
+    position: absolute;
+    display: block;
+}*/
+.home h2{
+    font-family:cursive;
+    font-size: 2rem;
+    color: black;
+}
+.para{
+    font-size: 1rem;
+}
+.leftarrow,.rightarrow{
+    
+    display: none;
+}
+.childd{
+    width: 100%;
+    margin: 1rem;
+    display: inline-block;
+
+}
+.flutter{
+    width: 100%;
+    overflow-x: scroll;
+
+}
+/*#a1{
+margin-left: 132rem;
+}
+#c1{
+    margin-left: 152rem;
+}
+*/
+.flutter {
+    display: flex;
+     justify-content:left; 
+    align-items: center;
+}
+.childd .card{
+    border: none !important;
+    box-shadow: rgba(85, 82, 82, 0.8) 0 0 1.5rem !important;
+    border-collapse: collapse !important ;
+    color: rgb(175, 180, 180);
+}

@@ -1,0 +1,87 @@
+.child{
+    width: 90%;
+    /*height: rem;*/
+    margin: auto;
+
+    padding: 0rem 0;
+
+
+
+}
+.image img {
+    display: block;
+    margin: auto;
+    height: 10rem;
+    width: 10rem;
+    box-shadow: 2px rebeccapurple;
+    margin-top: -5.5rem;
+    border-radius: 7.5rem;
+    transform: rotate(-15deg);
+    box-shadow: rgb(85 82 82 / 80%) 0 0 2rem;
+    border-collapse: collapse;
+}
+.home{
+    margin-top: 0;
+}
+.home h2 {
+    font-family: cursive;
+    font-size: 1.5rem;
+    color: black;
+}
+.home p,a {
+    font-size: 1rem;
+    font-family: monospace;
+    margin-bottom: 0rem;
+}
+.home i {
+    margin-top: 0;
+    font-size: 1rem;
+    color: black;
+}
+.web h4 {
+    color: aliceblue;
+    margin: 1rem 0;
+    text-align: center;
+}
+.card .card-text{
+    font-size: 0.6rem;
+    color: rgb(119, 117, 117);
+}
+h5 {
+    font-size: 1rem;
+}
+.card .btn{
+    font-size: 0.5rem;
+    padding: 0;
+    background-color: rgb(44, 42, 46);
+    color: rgb(172, 169, 173);
+    text-decoration: underline;
+    display: inline;
+}
+.page{
+    float: right;
+}
+.childd .card {
+    margin: auto;
+    width: 12rem;
+    border: none !important;
+    box-shadow: rgba(85, 82, 82, 0.8) 0 0 1.5rem !important;
+    border-collapse: collapse !important ;
+    color: rgb(175, 180, 180);
+}
+.para{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(119, 113, 113);
+
+}
+.para i, a {
+    margin: 0.1rem;
+}
+.home p, a {
+    font-size: 0.7rem;
+    font-family: monospace;
+    margin-bottom: 0rem;
+    display: block;
+}

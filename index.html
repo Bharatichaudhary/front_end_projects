@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link rel='stylesheet' href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 1070px)" href="style1.css">
+  <link rel="stylesheet" media="screen and (max-width: 720px)" href="style2.css">
+  <link rel="stylesheet" media="screen and (max-width: 350px)" href="style3.css">
+
+  <script src="myscript.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  
+</head>
+
+<body onload="show()">
+  <div class="main">
+    <div class="logo">
+      <img class="img-fluid"src="bg.jpg">
+    </div>
+    <div class="image">
+      <img src="img.png">
+    </div>
+    <div class="home">
+      <h2>
+        Bharati Chaudhary.
+      </h2>
+      <p>Front-End Developer</p>
+      <p>Download my CV<br>
+        <a href="mycv.pdf" download>
+          <i class="bi bi-download"></i>
+        </a>
+
+      </p>
+    
+        <a href="mycv.pdf" view>
+          View my CV
+        </a>
+      
+
+    </div>
+    <div class="web">
+      <h4><u> Project on Website designing</u></h4>
+      <div class="parent">
+        <div class="d-block child">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Online shopping Website demo</h5>
+              <p class="card-text">It is one of the most popular Online Computer selling website "ITTI" of Nepal.
+                It consist of 16 page which are linked together to obtain best result.
+                I have used HTML, CSS, Bootstrap and little bit of javascript.
+              </p>
+              <a href="https://drive.google.com/drive/folders/1I3oM5-vmZmuJDNSlZs9qFfxlA6OqS63c?usp=sharing"
+                class="btn rest ">Source Code</a>
+              <a href="Itti psd.pdf" view class="btn rest">View Pdf</a>
+              <a href="https://bharatichaudhary.github.io/itti/" view class="btn page rest">Demo Page</a>
+
+
+            </div>
+          </div>
+        </div>
+      
+
+
+ 
+
+      </div>
+
+
+
+
+
+
+      <div class="flutter">
+        <div class="leftarrow" >
+          <button onclick="movright()"><i class="bi bi-chevron-left"></i></button>
+        </div>
+        <div class="childd" id="a1">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Supreme court demo</h5>
+              <p class="card-text">It is single page website created using HTML and CSS. </p>
+              <a href="https://github.com/Bharatichaudhary/project4" class="btn ">Source Code</a>
+              <a href="https://bharatichaudhary.github.io/project4/" class="btn  page">View Page</a>
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="childd" id="a2">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">University website demo</h5>
+              <p class="card-text">
+                This website is single page website created using HTML, CSS, Bootstrap.
+              </p>
+              <a href="https://github.com/Bharatichaudhary/project3" class="btn">Source Code</a>
+              <a href="https://bharatichaudhary.github.io/project3/" class="btn page">View Page</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="a3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">My Quiz</h5>
+              <p class="card-text">This website is created using React. It is quiz game website</p>
+              <a href="https://github.com/Bharatichaudhary/My_Quiz" class="btn">Source Code</a>
+              <a href="quiz.pdf" view class="btn page">View Page</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="a4">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Text Analyzer</h5>
+              <p class="card-text">It is Text analyzing website with add on property of dark mode.</p>
+              <a href="https://github.com/Bharatichaudhary/Text-analyzer" class="btn ">Source Code</a>
+              <a href="analyzer.pdf" view class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="a5">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">To do List</h5>
+              <p class="card-text">It is created using React for maintaining daily routine</p>
+              <a href="https://github.com/Bharatichaudhary/TodoList" class="btn ">Source Code</a>
+              <a href="todo1.png" view class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="a6">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Scissor Paper Rock</h5>
+              <p class="card-text">It is created using React for single player game.</p>
+              <a href="https://github.com/Bharatichaudhary/ScissorPaperRock" class="btn ">Source Code</a>
+              <a href="scissor.pdf" view class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="a7">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <p class="card-text">It is created using React.</p>
+              <a href="https://drive.google.com/drive/folders/1aGGEaWb8402RbLCBMFDSZ3r_2c8yJS7u?usp=sharing" class="btn ">Source Code</a>
+              <a href="calculator.png" view class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="a8">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Scissor Paper Rock</h5>
+              <p class="card-text">It is created using React.</p>
+              <a href="https://drive.google.com/drive/folders/1aGGEaWb8402RbLCBMFDSZ3r_2c8yJS7u?usp=sharing" class="btn ">Source Code</a>
+              <a href="scissor.pdf" view class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+       
+        
+        
+        <div class="rightarrow" >
+          <button onclick="movleft()"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <h4><u> Project on Webapp(Flutter)</u></h4>
+      <div class="child" >
+        <div class="card" >
+          <div class="card-body">
+            <h5 class="card-title">Hangman game App</h5>
+            <p class="card-text">This is my first game app and this app is totally based upon my logic in coding. </p>
+            <a href="https://github.com/Bharatichaudhary/hangman" class="btn ">Source Code</a>
+            <a href="hang.pdf" view class="btn page">View SS</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="flutter">
+        <div class="leftarrow" >
+          <button onclick="moveright()"><i class="bi bi-chevron-left"></i></button>
+        </div>
+        <div class="childd" id="c1">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Simple Profile App</h5>
+              <p class="card-text">This is my first ever app in Flutter.</p>
+              <a href="https://github.com/Bharatichaudhary/Profile_app" class="btn ">Source Code</a>
+              <a href="6of50.2.png" view class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        
+        <div class="childd" id="c2">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Tic Tac Toe App 1</h5>
+              <p class="card-text">It is single player tic tac toe in which one player can enjoy playing with computer.
+              </p>
+              <a href="https://github.com/Bharatichaudhary/Single_Player_Tictactoe" class="btn ">Source Code</a>
+              <a href="tictac.pdf" class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="c3">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Tic Tac Toe App 2</h5>
+              <p class="card-text">It is multiplayer app in which two player can play together in single device</p>
+              <a href="https://github.com/Bharatichaudhary/Tic_Tac_Toe" class="btn ">Source Code</a>
+              <a href="#" class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="c4">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Temperature Converter App</h5>
+              <p class="card-text">This app takes value from user and convert it into desired unit of temperature</p>
+              <a href="https://github.com/Bharatichaudhary/Temperature_Converter" class="btn ">Source Code</a>
+              <a href="7of50.1.png" class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="c5">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">BMI Calculator App</h5>
+              <p class="card-text">This app takes value for weight and height and returns BMI value.</p>
+              <a href="https://github.com/Bharatichaudhary/BMI_Calculator" class="btn ">Source Code</a>
+              <a href="bmi.png" class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="c6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Login Page</h5>
+              <p class="card-text">This app enable user authentication for certain page.</p>
+              <a href="https://github.com/Bharatichaudhary/Login_page" class="btn ">Source Code</a>
+              <a href="loginpage.pdf"view class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="c7">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">TO DO app</h5>
+              <p class="card-text">This app is designed to make schedule of everyday routine.</p>
+              <a href="https://github.com/Bharatichaudhary/To_Do_List" class="btn ">Source Code</a>
+              <a href="todoapp.png" view class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="childd" id="c8">
+          <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Temperature Converter App</h5>
+              <p class="card-text">This app takes value from user and convert it into desired unit of temperature</p>
+              <a href="https://github.com/Bharatichaudhary/Temperature_Converter" class="btn ">Source Code</a>
+              <a href="7of50.1.png" class="btn page">View SS</a>
+
+            </div>
+          </div>
+        </div>
+       
+        <div class="rightarrow" >
+          <button onclick="moveleft()"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+      <h4><u> Contact:</u></h4>
+      <div class="para">
+        <div><i class="bi bi-telephone-fill"></i>Mobile no.: <a href="#">9861758954</a></div>
+        <div><i class="bi bi-envelope-fill"></i>Email: <a href="#">bharatichaudhary85@gmail.com</a></div>
+        <div><i class="bi bi-facebook"></i>Facebook: <a href="https://www.facebook.com/sachi.sahni.3">Bharati Chaudhary</a> </div>
+        <div><i class="bi bi-instagram"></i>Instagram: <a href="https://www.instagram.com/bharati8822/">Bharati Chaudhary</a></div>
+      </div>
+
+    </div>
+
+
+  
+
+
+
+  
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
